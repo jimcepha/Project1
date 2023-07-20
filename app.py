@@ -10,7 +10,7 @@ similarity = pickle.load(open('similarity.pkl', 'rb'))
 
 movie_titles = movielist['title'].values
 
-st.title("Jim's Movie Recommendation System")
+st.title("Jim's Movie Recommendation Engine")
 st.markdown("#### (The best out there...!)")
 
 searched_movie = st.selectbox("Select/Enter a Movie Name", movie_titles)
